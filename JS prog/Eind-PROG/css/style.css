@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div {
+    position: absolute;
+    top: 100px;
+    width: 20%;
+    text-align: center;
+    color: #454545;
+    text-shadow: 1px 1px 40px #454545;
+}
+
+canvas {
+    align-self: center;
+    background-color: lightblue;
+    /* transform: rotate(90deg); */
+}
+
+canvas.donker {
+    background-color: #454545;
+}
